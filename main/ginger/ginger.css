@@ -1,13 +1,14 @@
 body {
     min-height: 100vh;
-    background-image: url(/layered-gingersnap-cookies-on-wax-paper-1.jpg);
+    background-image: url(/main/confetti/frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay_127032-2200.jpg 
+    );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 * {
-    color: rgb(224, 152, 205);
+    color: rgb(10, 10, 10);
 }
 
 h1 {

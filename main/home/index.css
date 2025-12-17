@@ -1,6 +1,6 @@
 body {
     min-height: 100vh;
-    background-image: url(/ac6ca60ec63afa72f527ea87c8d58458.jpg);
+    background-image: url(/main/home/ac6ca60ec63afa72f527ea87c8d58458.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,22 +83,13 @@ h3 {
 
 
 
-.confetti-pic {
-    display: inline-block;
-    height: 10rem;
-    padding: 10px;
-}
 
-.ginger-pic {
-
-    height: 10rem;
-    padding: 10px;
-}
 
 .confetti-link {
     text-decoration: none;
     font-size: 20px;
     color: blueviolet;
+    display: flex;
 
 }
 
@@ -106,11 +97,27 @@ h3 {
     text-decoration: none;
     font-size: 20px;
     color: blueviolet;
+    display: flex;
 }
 
 .recent-box {
     text-align: center;
-    display: flex;
+    float: inline-start;
+    border: 2px;
+}
 
+.confetti-child {
+    display: grid;
+    place-items: center;
+    height: 12rem;
+    padding: 20px;
+    justify-content: left;
+}
 
+.ginger-child{
+    display: grid;
+    place-items: center;
+    height: 12rem;
+    padding: 20px;
+    justify-content: center;
 }
