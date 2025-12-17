@@ -1,0 +1,116 @@
+body {
+    min-height: 100vh;
+    background-image: url(/ac6ca60ec63afa72f527ea87c8d58458.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    color: rgb(249, 83, 152);
+}
+
+.intro {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    margin: 2rem;
+}
+
+h2 {
+    text-align: left;
+    font-style: oblique;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: blueviolet;
+}
+
+h3 {
+    text-align: center;
+    font-display: none;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: rgb(249, 83, 152);
+}
+
+.red-mill {
+    text-decoration: none;
+    color: rgb(249, 83, 152);
+
+}
+
+.red-mill:hover {
+    color: rgb(143, 69, 81);
+}
+
+.red-mill:active {
+    color: thistle;
+}
+
+.cloud-9 {
+    text-decoration: none;
+    color: rgb(249, 83, 152)
+}
+
+.cloud-9:hover {
+    color: pink;
+}
+
+.cloud-9:active {
+    color: thistle;
+}
+
+
+
+
+
+.confetti-pic {
+    display: inline-block;
+    height: 10rem;
+    padding: 10px;
+}
+
+.ginger-pic {
+
+    height: 10rem;
+    padding: 10px;
+}
+
+.confetti-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+
+}
+
+.ginger-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.recent-box {
+    text-align: center;
+    display: flex;
+
+
+}

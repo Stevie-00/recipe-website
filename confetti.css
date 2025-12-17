@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    background-image: url(frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay_127032-2200.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-style: oblique;
+    text-decoration: underline;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+
+}
+
+.ingredients-list {
+    margin: 3rem;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+
+.ingredients {
+    line-height: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+p {
+    margin: 5rem;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
