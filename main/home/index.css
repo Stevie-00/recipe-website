@@ -16,6 +16,7 @@ p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.3rem;
     margin-top: 0.5rem;
+    
 }
 
 h1 {
@@ -101,23 +102,43 @@ h3 {
 }
 
 .recent-box {
-    text-align: center;
+    align-items: center;
     float: inline-start;
-    border: 2px;
+    
+    
 }
 
 .confetti-child {
-    display: grid;
+    display:inline-table ;
     place-items: center;
     height: 12rem;
-    padding: 20px;
+    padding: 2rem;
     justify-content: left;
+    align-self: start;
 }
 
 .ginger-child{
-    display: grid;
+    display:inline-table ;
     place-items: center;
     height: 12rem;
-    padding: 20px;
+    padding: 2rem;
     justify-content: center;
+    align-self: center;
+}
+
+.cake-child {
+    display: inline-table ;
+    place-items: center;
+    height: 12rem;
+    padding: 2rem;
+    justify-content: right;
+    
+}
+
+.cake-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+    display: flex;
+
 }
