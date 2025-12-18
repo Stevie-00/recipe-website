@@ -15,8 +15,10 @@ body {
 p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.3rem;
-    margin-top: 0.5rem;
-    
+    margin: 1rem;
+    margin-left: 6rem;    
+    text-align: left;
+    max-width: 1326px;
 }
 
 h1 {
