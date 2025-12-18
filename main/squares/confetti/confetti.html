@@ -4,10 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!--change per copy--> <title>Gluten Free Treats</title>
-
-    <link rel="stylesheet" href="practice.css">
+    <title>Butterscotch Confetti</title>
     <link rel="stylesheet" href="/main/home/standard.css">
+    <link rel="stylesheet" href="/main/squares/confetti/confetti.css">
 </head>
 
 <body>
@@ -26,40 +25,37 @@
         <ul>
             <li><a href="/main/home/index.html"> Home</a></li>
             <li class="hideOnMobile">
-            
-            <!--dropdown for"recipes"-->
                 <li>
-                <a class="hideOnMobile" href="/main/recipes.html"> Recipes</a>
-                <ul class="dropdown">
-                    <li><a href="/main/Cookies/intro-cookies/index-cookies.html">Cookies</a></li>
-                    <li><a href="/main/squares/intro-squares/index-squares.html">Squares</a></li>
-                    <li><a href="/main/cakes/intro-cakes/index-cakes.html">Cakes</a></li>
-                    <li><a href="/main/other/intro-other/index-other.html">Other</a></li>
-                </ul>
-            </li>
-            <!--end "recipes" end-->
+                   <li class="hideOnMobile"><a href="/main/recipes.html"> Recipes</a>
+                    <ul class="dropdown">
+                        <Li><a href="/main/Cookies/intro-cookies/index-cookies.html">Cookies</a></Li>
+                        <li><a href="/main/squares/intro-squares/index-squares.html">Squares</a></li>
+                        <li><a href="/main/cakes/intro-cakes/index-cakes.html">Cakes</a></li>
+                        <li><a href="/main/other/intro-other/index-other.html">Other</a></li>
+                    </ul>
+                </li>
             
-            <!--dropdown for "my recipes"-->
-            <li> 
-            <a class="hideOnMobile" href="/main/my-recipes/intro-myRecipes.html"> My Recipes</a>
-            <ul class="dropdown">
-                <li><a href="/main/my-recipes/log-in.html">Log In</a></li>
-                <li><a href="/main/my-recipes/favorites.html">Favorites</a></li>
-                </ul>
-            </li>
-            <!--end "my recipes" end-->
-           
-            <!--dropdown for "about"-->
+            
             <li>
-            <a class="hideOnMobile" href="#"> About</a>
+
+            <a class="hideOnMobile" href="/main/my-recipes/intro-myRecipes.html"> My Recipes</a>
+        <ul class="dropdown">
+            <li><a href="/main/my-recipes/log-in.html">Log In</a></li>
+            <li><a href="/main/my-recipes/favorites.html">Favorites</a></li>
+        </ul>
+        </li>
+           
+        
+        <li>
+
+        <a class="hideOnMobile" href="#">About</a>
             <ul class="dropdown">
                 <li><a href="/main/home/about/general/general.html">General</a></li>
-                <li><a href="/main/home/about/sources/sources.html">Sources</a></li>
-                <li><a href="/main/home/about/contact.html">Contact</a></li>
-            </ul>
-            </li>
-            <!--end "about" end-->
-            
+                <li><a href="/main/home/about/sources/sources.html">Source</a></li>
+                <li><a href="/main/home/about/contact/contact.html">Contact</a></li>
+</ul>
+</li>
+
             <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512" width="26"
                         height="26"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
@@ -69,6 +65,28 @@
         </ul>
 
     </Nav>
+
+    <h1>Butterscotch confetti</h1>
+    <ul class="ingredients-list">
+        <div class="ingredients">
+            <li>Butter or margarine - 1/4 cup</li>
+
+            <li>Peanut butter 1/2 cup</li>
+
+            <li>Butterscotch chips - 1 cup</li>
+
+            <li>Small multicoloured marshmallows - 8 oz</li>
+        </div>
+    </ul>
+
+    <p>Melt butter and peanut butter in a large sauce pan over low heat. Stir in chips until melted. Cool until you can
+        hold your hand on the bottom of the pot. To speed up the process, stir while holding pan in cold water.
+        Add marshmallows and stir until all are coated. Pack down into 9 x 9 - inch (22 x 22 cm) pan that has been lined
+        with wax paper. Refrigerate.
+        36 squares.</p>
+
+
+
 
 
 
@@ -83,7 +101,6 @@
             sidebar.style.display = 'none'
         }
 
-
         document.addEventListener('click', function (e) {
             if (e.target.matches('.dropbtn')) {
                 constdropdown = e.target.closest('.dropdown');
@@ -93,4 +110,7 @@
             }
         });
     </script>
+
 </body>
+
+</html>

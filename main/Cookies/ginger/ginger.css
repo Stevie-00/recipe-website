@@ -1,9 +1,12 @@
 body {
     min-height: 100vh;
-    background-image: url(/main/home/ac6ca60ec63afa72f527ea87c8d58458.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/frame-food-ingredients-baking-gently-pink-pastel-background-cooking-flat-lay-with-copy-space-top-view-baking-concept-flat-lay_127032-2200.jpg);
     background-position: center;
     background-size: cover;
+}
+
+* {
+    color: rgb(10, 10, 10);
 }
 
 h1 {
